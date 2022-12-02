@@ -1,0 +1,7 @@
+.display-items{
+    display: flex;
+    margin:110px 500px 50px 500px;
+    background-color: bisque;
+    width: 250px;
+    height: 110px;
+}
