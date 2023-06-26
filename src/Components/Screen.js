@@ -10,7 +10,9 @@ const MyScreen=(props)=>{
     return(
         <div className='screen'>
         <div className='screen-calculator-items'>
-            <MyNumbers onSaveData={onSaveHandler}/>
+        // calls the component that handles the numbers and values
+        // callback is used
+            <MyNumbers onSaveData={onSaveHandler}/>    
         </div>
         </div>
 
